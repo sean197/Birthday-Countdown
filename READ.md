@@ -1,0 +1,2 @@
+This was an expewrimental web app which counts the days left until your birthday.
+This app wascreated using vanilla javascript and used to further consolidate my knowledge of Date and Times ad well as using external time sources such as data-fns.

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Birthday Timer</title>
+</head>
+<body>
+
+
+    <div class="container">
+
+        <h1>When Is Your Next Birthday?</h1>
+
+<form >
+  <label for="birthday"></label>
+  <input type="date" id="birthday" name="birthday"> <br>
+  <br> <br> <br>    
+ <br> <input type="submit" value="submit" style="display: none;">
+</form>
+
+<div class="countdown">
+    <h3>How Many Days Until Your Birthday:</h3>
+    <div class="clock"></div>
+</div>
+
+    </div>
+
+
+
+<script src="http://cdn.date-fns.org/v1.0.0/date_fns.min.js"></script>
+<script>
+  dateFns.isToday(new Date())
+  //=> true
+</script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
